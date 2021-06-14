@@ -1,0 +1,2207 @@
+
+/* Buttons - Grid - Elements Page */
+
+@media (min-width: 320px) {
+  /* Primary button */
+
+  .primary-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 0px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 0px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .primary-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  /* Large button */
+
+  .large-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  .large-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  /* Small button */
+
+  .small-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .small-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .btn-action {
+    padding: 0 0 0 0px;
+  }
+
+  /* DEFAULT Button */
+
+  .primary-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .primary-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-clear {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-clear:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+
+  /* DEFAULT ICON Button */
+
+  .icon-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .fa-search, .fa-download {
+    margin-right: 5px;
+  }
+
+  .icon-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  /* Big DEFAULT Button */
+
+  .fit-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 10rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 10rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 10rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  .fit-btn-2:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 10rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  /* Medium Default Button */
+
+  .fitsmall-btn-grid-1 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 10rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-1:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);;
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 10rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-3 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 10rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  .fitsmall-btn-grid-3:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 10rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  /* Actions - Grid button */
+
+  .grid-container-btn {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: transparent;
+  }
+
+  .grid-container-btn > div {
+    background-color: transparent;
+    padding: 0px 0;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 375px) {
+  /* Primary button */
+
+  .primary-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 0px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 0px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .primary-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  /* Large button */
+
+  .large-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  .large-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  /* Small button */
+
+  .small-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .small-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .btn-action {
+    padding: 0 0 0 0px;
+  }
+
+  /* DEFAULT Button */
+
+  .primary-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .primary-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-clear {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-clear:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+
+  /* DEFAULT ICON Button */
+
+  .icon-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .fa-search, .fa-download {
+    margin-right: 5px;
+  }
+
+  .icon-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  /* Big DEFAULT Button */
+
+  .fit-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 13rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 13rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 13rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  .fit-btn-2:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 13rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  /* Medium Default Button */
+
+  .fitsmall-btn-grid-1 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 13rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-1:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);;
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 13rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-3 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 13rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  .fitsmall-btn-grid-3:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 13rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  /* Actions - Grid button */
+
+  .grid-container-btn {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: transparent;
+  }
+
+  .grid-container-btn > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0px 0;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 425px) {
+  /* Primary button */
+
+  .primary-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 0px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 0px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .primary-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  /* Large button */
+
+  .large-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  .large-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  /* Small button */
+
+  .small-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .small-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .btn-action {
+    padding: 0 0 0 0px;
+  }
+
+  /* DEFAULT Button */
+
+  .primary-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .primary-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-clear {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-clear:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+
+  /* DEFAULT ICON Button */
+
+  .icon-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .fa-search, .fa-download {
+    margin-right: 5px;
+  }
+
+  .icon-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  /* Big DEFAULT Button */
+
+  .fit-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 15rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 15rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 15rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  .fit-btn-2:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 15rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  /* Medium Default Button */
+
+  .fitsmall-btn-grid-1 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 15rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-1:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);;
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 15rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-3 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 15rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  .fitsmall-btn-grid-3:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 15rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  /* Actions - Grid button */
+
+  .grid-container-btn {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: transparent;
+  }
+
+  .grid-container-btn > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0px 0;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  /* Primary button */
+
+  .primary-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .primary-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  /* Large button */
+
+  .large-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  .large-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  /* Small button */
+
+  .small-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .small-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .btn-action {
+    padding: 0 0 0 50px;
+  }
+
+  /* DEFAULT Button */
+
+  .primary-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .primary-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-clear {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-clear:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+
+  /* DEFAULT ICON Button */
+
+  .icon-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .fa-search, .fa-download {
+    margin-right: 5px;
+  }
+
+  .icon-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  /* Big DEFAULT Button */
+
+  .fit-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 32rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 32rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 32rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  .fit-btn-2:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 32rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  /* Medium Default Button */
+
+  .fitsmall-btn-grid-1 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 32rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-1:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);;
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 32rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-3 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 32rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  .fitsmall-btn-grid-3:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 32rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  /* Actions - Grid button */
+
+  .grid-container-btn {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: transparent;
+  }
+
+  .grid-container-btn > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0px 0;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  /* Primary button */
+
+  .primary-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .primary-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  /* Large button */
+
+  .large-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  .large-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  /* Small button */
+
+  .small-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .small-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .btn-action {
+    padding: 0 0 0 50px;
+  }
+
+  /* DEFAULT Button */
+
+  .primary-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .primary-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-2:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+
+  /* DEFAULT ICON Button */
+
+  .icon-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .fa-search, .fa-download {
+    margin-right: 5px;
+  }
+
+  .icon-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  /* Big DEFAULT Button */
+
+  .fit-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 32rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 32rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 32rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  .fit-btn-2:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 32rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  /* Medium Default Button */
+
+  .fitsmall-btn-grid-1 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 32rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-1:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);;
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 32rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-3 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 32rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  .fitsmall-btn-grid-3:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 32rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  /* Actions - Grid button */
+
+  .grid-container-btn {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: transparent;
+  }
+
+  .grid-container-btn > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0px 0;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  /* Primary button */
+
+  .primary-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+  }
+
+  .primary-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .primary-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 10px;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  /* Large button */
+
+  .large-btn {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  .large-btn:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    margin: 30px 0 10px 0;
+  }
+
+  /* Small button */
+
+  .small-default-btn {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .small-default-btn:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 5rem;
+    height: 2.5rem;
+    margin: 40px 0 10px 10px;
+  }
+
+  .btn-action {
+    padding: 0 0 0 50px;
+  }
+
+  /* DEFAULT Button */
+
+  .primary-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .primary-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-clear {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+  .default-btn-clear:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+    opacity: 20%;
+  }
+
+
+  /* DEFAULT ICON Button */
+
+  .icon-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .fa-search, .fa-download {
+    margin-right: 5px;
+  }
+
+  .icon-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  .icon-btn-2:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 8rem;
+    height: 3rem;
+    margin-top: 20px;
+  }
+
+  /* Big DEFAULT Button */
+
+  .fit-btn-1 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 32rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-1:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    width: 32rem;
+    height: 3rem;
+    margin-top: 30px;
+  }
+
+  .fit-btn-2 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    padding: 5px;
+    width: 32rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  .fit-btn-2:hover {
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    padding: 5px;
+    width: 32rem;
+    height: 3rem;
+    margin: 30px 0 0px 0px;
+  }
+
+  /* Medium Default Button */
+
+  .fitsmall-btn-grid-1 {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-secondary-color);
+    width: 32rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-1:hover {
+    background-color: var(--bs-primary-color);
+    border-color: var(--bs-third-color);;
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-third-color);
+    width: 32rem;
+    height: 2.5rem;
+    margin-top: 30px;
+  }
+
+  .fitsmall-btn-grid-3 {
+    background-color: var(--bs-secondary-color);
+    border-color: var(--bs-secondary-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 32rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  .fitsmall-btn-grid-3:hover {
+    background-color: var(--bs-third-color);
+    border-color: var(--bs-third-color);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--bs-primary-color);
+    padding: 5px;
+    width: 32rem;
+    height: 2.5rem;
+    margin: 30px 0 0px 0;
+  }
+
+  /* Actions - Grid button */
+
+  .grid-container-btn {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: transparent;
+  }
+
+  .grid-container-btn > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0px 0;
+    font-size: 30px;
+  }
+}

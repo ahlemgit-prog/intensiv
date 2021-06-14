@@ -1,0 +1,75 @@
+
+/* Heading - Elements Page */
+
+@media (min-width: 320px) {
+
+}
+
+
+@media (min-width: 375px) {
+
+}
+
+
+@media (min-width: 425px) {
+
+}
+
+
+@media (min-width: 768px) {
+  .text-heading {
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+
+  h3.title-3 {
+    margin-left: 50px;
+    font-family: 'Open-Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1.2rem;
+  }
+
+  h4.title-4 {
+    margin-left: 50px;
+    font-family: 'Open-Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 2rem;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .text-heading {
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+
+  h3.title-3 {
+    margin-left: 50px;
+    font-family: 'Open-Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 800;
+    line-height: 1.2rem;
+  }
+
+  h4.title-4 {
+    margin-left: 50px;
+    font-family: 'Open-Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 800;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .text-heading {
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+}

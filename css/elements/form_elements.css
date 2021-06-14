@@ -1,0 +1,1521 @@
+
+/* Contact form */
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 15px; /* Some padding */
+  border: 2px solid var(--bs-color7); /* Gray border */
+  text-transform: uppercase;
+  border-radius: .2px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin: 6px 0px 16px 0; /* Add a margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: transparent;
+  border-color: var(--bs-color8);
+  text-transform: uppercase;
+  font-family: var(--bs-font-sans-serif);
+  font-size: .8rem;
+  font-weight: bold;
+  color: var(--bs-color8);
+  padding: 15px;
+  width: 10rem;
+  margin-top: 15px;
+}
+
+
+input[type=submit]:hover {
+  border-color: var(--bs-third-color);
+  color: var(--bs-third-color);
+  background-color: var(--bs-primary-color);
+}
+
+#subject {
+  max-height: 200px;
+  height: 150px;
+}
+
+
+/* FORM - Responsive */
+@media (min-width: 320px) {
+
+  label {
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    color: var(--bs-color8);
+    font-weight: 600;
+    margin-top: 25px;
+  }
+
+  .contact-form-element {
+    margin-top: 30px;
+    padding-left: 10px;
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 375px) {
+
+  label {
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    color: var(--bs-color8);
+    font-weight: 600;
+    margin-top: 40px;
+  }
+
+  .contact-form-element {
+    margin-top: 30px;
+    padding-left: 10px;
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 425px) {
+
+  label {
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    color: var(--bs-color8);
+    font-weight: 600;
+    margin-top: 40px;
+  }
+
+  .contact-form-element {
+    margin-top: 30px;
+    padding-left: 10px;
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+
+  label {
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    color: var(--bs-color8);
+    font-weight: 600;
+    margin-top: 50px;
+  }
+
+  .contact-form-element {
+    margin-top: 80px;
+    padding-left: 10px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .contact-form-element {
+    margin-top: 30px;
+    padding: 0px;
+    width: 45%;
+  }
+
+  label {
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    color: var(--bs-color8);
+    font-weight: 600;
+    margin-top: 0px;
+  }
+}
+
+
+@media (min-width: 320px) {
+
+    /* FORM CHECKBOX PART 2 */
+
+    #low, #normal, #high {
+      text-transform: none;
+      font-size: 1rem;
+    }
+
+    .container-checkbox2 {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    /* Hide the browser's default checkbox */
+    .container-checkbox2 input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    /* Create a custom checkbox */
+    .checkmark2 {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      height: 32px;
+      width: 32px;
+      border: 1px #eee solid;
+      border-radius: 50%;
+    }
+
+
+    /* On mouse-over, add a transparent background color */
+    .container-checkbox2:hover input ~ .checkmark2 {
+      background-color: transparent;
+      border-radius: 50%;
+    }
+
+    /* When the checkbox is checked, add a black background */
+    .container-checkbox2 input:checked ~ .checkmark2 {
+      background-color: var(--bs-secondary-color);
+      border-radius: 50%;
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark2:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .container-checkbox2 input:checked ~ .checkmark2:after {
+      display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .container-checkbox2 .checkmark2:after {
+      left: 11px;
+      top: 8px;
+      width: 7px;
+      height: 12px;
+      border: solid var(--bs-primary-color);
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+
+    /* FORM CHECKBOX PART 1 */
+    #email, #human {
+      text-transform: none;
+      font-size: 1rem;
+    }
+
+    .container-checkbox3 {
+      display: block;
+      position: relative;
+      padding-left: 35px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      font-size: 22px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    /* Hide the browser's default checkbox */
+    .container-checkbox3 input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+    }
+
+    /* Create a custom checkbox */
+    .checkmark {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      height: 32px;
+      width: 32px;
+      border: 1px #eee solid;
+
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container-checkbox3:hover input ~ .checkmark {
+      background-color: transparent;
+    }
+
+    /* When the checkbox is checked, add a blue background */
+    .container-checkbox3 input:checked ~ .checkmark {
+      background-color: var(--bs-secondary-color);
+
+    }
+
+    /* Create the checkmark/indicator (hidden when not checked) */
+    .checkmark:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+
+    /* Show the checkmark when checked */
+    .container-checkbox3 input:checked ~ .checkmark:after {
+      display: block;
+    }
+
+    /* Style the checkmark/indicator */
+    .container-checkbox3 .checkmark:after {
+      left: 11px;
+      top: 8px;
+      width: 7px;
+      height: 12px;
+      border: solid var(--bs-primary-color);
+      border-width: 0 3px 3px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    /* FORM CHECKBOX PART 3 */
+
+    #message {
+      min-height: 300px;
+      max-height: 400px;
+      height: 250px;
+      color: #333;
+      font-size: 1.2rem;
+      font-family: var(--bs-font-sans-serif);
+      text-transform: none;
+    }
+
+    .btn-send {
+      background-color: var(--bs-secondary-color);
+    }
+
+    input[type=submit] {
+      background-color: transparent;
+      border-color: var(--bs-color8);
+      text-transform: uppercase;
+      font-family: var(--bs-font-sans-serif);
+      font-size: .8rem;
+      font-weight: bold;
+      color: var(--bs-color8);
+      padding: 15px;
+      width: 10rem;
+      margin-top: 15px;
+    }
+
+    input[type=submit]:hover {
+      border-color: var(--bs-third-color);
+      color: var(--bs-third-color);
+      background-color: var(--bs-primary-color);
+    }
+
+    button.reset {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #category-text {
+      text-transform: capitalize;
+      font-size: 1rem;
+      color: var(--bs-secondary-color);
+      font-family: var(--bs-font-sans-serif);
+      background: var(--bs-primary-color);
+    }
+}
+
+
+
+@media (min-width: 375px) {
+  /* FORM CHECKBOX PART 2 */
+
+  #low, #normal, #high {
+    text-transform: none;
+    font-size: 1rem;
+  }
+
+  .container-checkbox2 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container-checkbox2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark2 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px #eee solid;
+    border-radius: 50%;
+  }
+
+
+  /* On mouse-over, add a transparent background color */
+  .container-checkbox2:hover input ~ .checkmark2 {
+    background-color: transparent;
+    border-radius: 50%;
+  }
+
+  /* When the checkbox is checked, add a black background */
+  .container-checkbox2 input:checked ~ .checkmark2 {
+    background-color: var(--bs-secondary-color);
+    border-radius: 50%;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container-checkbox2 input:checked ~ .checkmark2:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container-checkbox2 .checkmark2:after {
+    left: 11px;
+    top: 8px;
+    width: 7px;
+    height: 12px;
+    border: solid var(--bs-primary-color);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  /* FORM CHECKBOX PART 1 */
+  #email, #human {
+    text-transform: none;
+    font-size: 1rem;
+  }
+
+  .container-checkbox3 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container-checkbox3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px #eee solid;
+
+  }
+
+  /* On mouse-over, add a grey background color */
+  .container-checkbox3:hover input ~ .checkmark {
+    background-color: transparent;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .container-checkbox3 input:checked ~ .checkmark {
+    background-color: var(--bs-secondary-color);
+
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container-checkbox3 input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container-checkbox3 .checkmark:after {
+    left: 11px;
+    top: 8px;
+    width: 7px;
+    height: 12px;
+    border: solid var(--bs-primary-color);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /* FORM CHECKBOX PART 3 */
+
+  #message {
+    min-height: 300px;
+    max-height: 400px;
+    height: 250px;
+    color: #333;
+    font-size: 1.2rem;
+    font-family: var(--bs-font-sans-serif);
+    text-transform: none;
+  }
+
+  .btn-send {
+    background-color: var(--bs-secondary-color);
+  }
+
+  input[type=submit] {
+    background-color: transparent;
+    border-color: var(--bs-color8);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-color8);
+    padding: 15px;
+    width: 10rem;
+    margin-top: 15px;
+  }
+
+  input[type=submit]:hover {
+    border-color: var(--bs-third-color);
+    color: var(--bs-third-color);
+    background-color: var(--bs-primary-color);
+  }
+
+  button.reset, button.send {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #category-text {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: var(--bs-secondary-color);
+    font-family: var(--bs-font-sans-serif);
+    background: var(--bs-primary-color);
+  }
+}
+
+
+@media (min-width: 425px) {
+  /* FORM CHECKBOX PART 2 */
+
+  #low, #normal, #high {
+    text-transform: none;
+    font-size: 1.2rem;
+  }
+
+  .container-checkbox2 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container-checkbox2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark2 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px #eee solid;
+    border-radius: 50%;
+  }
+
+
+  /* On mouse-over, add a transparent background color */
+  .container-checkbox2:hover input ~ .checkmark2 {
+    background-color: transparent;
+    border-radius: 50%;
+  }
+
+  /* When the checkbox is checked, add a black background */
+  .container-checkbox2 input:checked ~ .checkmark2 {
+    background-color: var(--bs-secondary-color);
+    border-radius: 50%;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container-checkbox2 input:checked ~ .checkmark2:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container-checkbox2 .checkmark2:after {
+    left: 11px;
+    top: 8px;
+    width: 7px;
+    height: 12px;
+    border: solid var(--bs-primary-color);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  /* FORM CHECKBOX PART 1 */
+  #email, #human {
+    text-transform: none;
+    font-size: 1.2rem;
+  }
+
+  .container-checkbox3 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container-checkbox3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px #eee solid;
+
+  }
+
+  /* On mouse-over, add a grey background color */
+  .container-checkbox3:hover input ~ .checkmark {
+    background-color: transparent;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .container-checkbox3 input:checked ~ .checkmark {
+    background-color: var(--bs-secondary-color);
+
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container-checkbox3 input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container-checkbox3 .checkmark:after {
+    left: 11px;
+    top: 8px;
+    width: 7px;
+    height: 12px;
+    border: solid var(--bs-primary-color);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /* FORM CHECKBOX PART 3 */
+
+  #message {
+    min-height: 300px;
+    max-height: 400px;
+    height: 250px;
+    color: #333;
+    font-size: 1.2rem;
+    font-family: var(--bs-font-sans-serif);
+    text-transform: none;
+  }
+
+  .btn-send {
+    background-color: var(--bs-secondary-color);
+  }
+
+  input[type=submit] {
+    background-color: transparent;
+    border-color: var(--bs-color8);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-color8);
+    padding: 15px;
+    width: 10rem;
+    margin-top: 15px;
+  }
+
+  input[type=submit]:hover {
+    border-color: var(--bs-third-color);
+    color: var(--bs-third-color);
+    background-color: var(--bs-primary-color);
+  }
+
+  #category-text {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: var(--bs-secondary-color);
+    font-family: var(--bs-font-sans-serif);
+    background: var(--bs-primary-color);
+  }
+}
+
+
+@media (min-width: 768px) {
+  /* FORM CHECKBOX PART 2 */
+
+  #low, #normal, #high {
+    text-transform: none;
+    font-size: 1.2rem;
+  }
+
+  .container-checkbox2 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container-checkbox2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark2 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px #eee solid;
+    border-radius: 50%;
+  }
+
+
+  /* On mouse-over, add a transparent background color */
+  .container-checkbox2:hover input ~ .checkmark2 {
+    background-color: transparent;
+    border-radius: 50%;
+  }
+
+  /* When the checkbox is checked, add a black background */
+  .container-checkbox2 input:checked ~ .checkmark2 {
+    background-color: var(--bs-secondary-color);
+    border-radius: 50%;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container-checkbox2 input:checked ~ .checkmark2:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container-checkbox2 .checkmark2:after {
+    left: 11px;
+    top: 8px;
+    width: 7px;
+    height: 12px;
+    border: solid var(--bs-primary-color);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  /* FORM CHECKBOX PART 1 */
+  #email, #human {
+    text-transform: none;
+    font-size: 1.2rem;
+  }
+
+  .container-checkbox3 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container-checkbox3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px #eee solid;
+
+  }
+
+  /* On mouse-over, add a grey background color */
+  .container-checkbox3:hover input ~ .checkmark {
+    background-color: transparent;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .container-checkbox3 input:checked ~ .checkmark {
+    background-color: var(--bs-secondary-color);
+
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container-checkbox3 input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container-checkbox3 .checkmark:after {
+    left: 11px;
+    top: 8px;
+    width: 7px;
+    height: 12px;
+    border: solid var(--bs-primary-color);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  /* FORM CHECKBOX PART 3 */
+
+  #message {
+    min-height: 300px;
+    max-height: 400px;
+    height: 250px;
+    color: #333;
+    font-size: 1.2rem;
+    font-family: var(--bs-font-sans-serif);
+    text-transform: none;
+  }
+
+  .btn-send {
+    background-color: var(--bs-secondary-color);
+  }
+
+  input[type=submit] {
+    background-color: transparent;
+    border-color: var(--bs-color8);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-color8);
+    padding: 15px;
+    width: 10rem;
+    margin-top: 15px;
+  }
+
+  input[type=submit]:hover {
+    border-color: var(--bs-third-color);
+    color: var(--bs-third-color);
+    background-color: var(--bs-primary-color);
+  }
+
+  button.reset, button.send {
+    display: inline-block;
+  }
+
+  #category-text {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: var(--bs-secondary-color);
+    font-family: var(--bs-font-sans-serif);
+    background: var(--bs-primary-color);
+  }
+}
+
+@media (min-width: 1024px)  {
+  /* FORM PART */
+  .grid-container-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px 0px 0 0;
+  padding: 0px 110px 0 0px;
+  width: 920px;
+  }
+
+  .grid-container-form > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+  }
+
+  .form1 {
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+
+  .form2 {
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+
+  #firstname, #lastname {
+    width: 350px;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: var(--bs-color7);
+    font-family: var(--bs-font-sans-serif);
+  }
+
+  #firstname {
+    margin-right: 100px;
+  }
+
+  #category-text {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: var(--bs-secondary-color);
+    font-family: var(--bs-font-sans-serif);
+    background: var(--bs-primary-color);
+  }
+
+  .contact-form-element {
+    margin-top: 20px;
+    padding: 0px;
+    padding-left: 40px;
+    width: 845px;
+  }
+
+
+  /* FORM CHECKBOX PART 2 */
+  .grid-container-checkbox2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  padding: 0px 0px 0 0px;
+  width: 920px;
+  }
+
+  .checkbox3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+
+  #low, #normal, #high {
+    text-transform: none;
+    font-size: 1.2rem;
+  }
+
+  .container-checkbox2 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container-checkbox2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark2 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px #eee solid;
+    border-radius: 50%;
+  }
+
+
+  /* On mouse-over, add a transparent background color */
+  .container-checkbox2:hover input ~ .checkmark2 {
+    background-color: transparent;
+    border-radius: 50%;
+  }
+
+  /* When the checkbox is checked, add a black background */
+  .container-checkbox2 input:checked ~ .checkmark2 {
+    background-color: var(--bs-secondary-color);
+    border-radius: 50%;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container-checkbox2 input:checked ~ .checkmark2:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container-checkbox2 .checkmark2:after {
+    left: 11px;
+    top: 8px;
+    width: 7px;
+    height: 12px;
+    border: solid var(--bs-primary-color);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  /* FORM CHECKBOX PART 1 */
+  .grid-container-checkbox2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  padding: 0px 0px 0 0px;
+  width: 920px;
+  }
+
+  .checkbox4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  #email, #human {
+    text-transform: none;
+    font-size: 1.2rem;
+  }
+
+  .container-checkbox3 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container-checkbox3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px #eee solid;
+
+  }
+
+  /* On mouse-over, add a grey background color */
+  .container-checkbox3:hover input ~ .checkmark {
+    background-color: transparent;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .container-checkbox3 input:checked ~ .checkmark {
+    background-color: var(--bs-secondary-color);
+
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container-checkbox3 input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container-checkbox3 .checkmark:after {
+    left: 11px;
+    top: 8px;
+    width: 7px;
+    height: 12px;
+    border: solid var(--bs-primary-color);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /* FORM CHECKBOX PART 3 */
+
+  #message {
+    min-height: 300px;
+    max-height: 400px;
+    height: 350px;
+    color: #333;
+    font-size: 1.2rem;
+    font-family: var(--bs-font-sans-serif);
+    text-transform: none;
+  }
+
+  .btn-send {
+    background-color: var(--bs-secondary-color);
+  }
+
+  input[type=submit] {
+    background-color: transparent;
+    border-color: var(--bs-color8);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-color8);
+    padding: 15px;
+    width: 10rem;
+    margin-top: 15px;
+  }
+
+  input[type=submit]:hover {
+    border-color: var(--bs-third-color);
+    color: var(--bs-third-color);
+    background-color: var(--bs-primary-color);
+  }
+
+  label {
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    color: var(--bs-color8);
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  /* FORM PART */
+  .grid-container-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px 0px 0 0;
+  padding: 0px 110px 0 0px;
+  width: 920px;
+  }
+
+  .grid-container-form > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0px 0;
+    font-size: 30px;
+  }
+
+  .form1 {
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+
+  .form2 {
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+
+  #firstname, #lastname {
+    width: 570px;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: var(--bs-color7);
+    font-family: var(--bs-font-sans-serif);
+
+  }
+
+  #firstname {
+    margin-right: 20px;
+  }
+
+  #category-text {
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: var(--bs-secondary-color);
+    font-family: var(--bs-font-sans-serif);
+    background: var(--bs-primary-color);
+  }
+
+  .contact-form-element {
+    margin-top: 20px;
+    padding: 0px;
+    padding-left: 40px;
+    width: 1200px;
+  }
+
+
+
+
+  /* FORM CHECKBOX PART 2 */
+  .grid-container-checkbox2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  padding: 0px 0px 0 0px;
+  width: 920px;
+  }
+
+  .checkbox3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+
+  #low, #normal, #high {
+    text-transform: none;
+    font-size: 1.2rem;
+  }
+
+
+  .container-checkbox2 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container-checkbox2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark2 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px #eee solid;
+    border-radius: 50%;
+  }
+
+
+  /* On mouse-over, add a transparent background color */
+  .container-checkbox2:hover input ~ .checkmark2 {
+    background-color: transparent;
+    border-radius: 50%;
+  }
+
+  /* When the checkbox is checked, add a black background */
+  .container-checkbox2 input:checked ~ .checkmark2 {
+    background-color: var(--bs-secondary-color);
+    border-radius: 50%;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark2:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container-checkbox2 input:checked ~ .checkmark2:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container-checkbox2 .checkmark2:after {
+    left: 11px;
+    top: 8px;
+    width: 7px;
+    height: 12px;
+    border: solid var(--bs-primary-color);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  /* FORM CHECKBOX PART 1 */
+  .grid-container-checkbox2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 5px;
+  padding: 0px 0px 0 0px;
+  width: 920px;
+  }
+
+  .checkbox4 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  #email, #human {
+    text-transform: none;
+    font-size: 1.2rem;
+  }
+
+  .container-checkbox3 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container-checkbox3 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 32px;
+    width: 32px;
+    border: 1px #eee solid;
+
+  }
+
+  /* On mouse-over, add a grey background color */
+  .container-checkbox3:hover input ~ .checkmark {
+    background-color: transparent;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+  .container-checkbox3 input:checked ~ .checkmark {
+    background-color: var(--bs-secondary-color);
+
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container-checkbox3 input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container-checkbox3 .checkmark:after {
+    left: 11px;
+    top: 8px;
+    width: 7px;
+    height: 12px;
+    border: solid var(--bs-primary-color);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /* FORM CHECKBOX PART 3 */
+
+  #message {
+    min-height: 300px;
+    max-height: 400px;
+    height: 350px;
+    color: #333;
+    font-size: 1.2rem;
+    font-family: var(--bs-font-sans-serif);
+    text-transform: none;
+  }
+
+  .btn-send {
+    background-color: var(--bs-secondary-color);
+  }
+
+  input[type=submit] {
+    background-color: transparent;
+    border-color: var(--bs-color8);
+    text-transform: uppercase;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    font-weight: bold;
+    color: var(--bs-color8);
+    padding: 15px;
+    width: 10rem;
+    margin-top: 15px;
+  }
+
+  input[type=submit]:hover {
+    border-color: var(--bs-third-color);
+    color: var(--bs-third-color);
+    background-color: var(--bs-primary-color);
+  }
+
+  label {
+    font-family: var(--bs-font-sans-serif);
+    font-size: .8rem;
+    color: var(--bs-color8);
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+}

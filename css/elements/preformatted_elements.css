@@ -1,0 +1,135 @@
+
+/* BOX - ELEMENT PAGE */
+
+@media (min-width: 320px) {
+  .text-box {
+    display: block;
+    padding-right: 20px;
+    margin: 20px 10px 20px 10px;
+    font-size: .6rem;
+  }
+
+  .grid-container-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    border: 2px var(--bs-color7) solid;
+    padding: 2px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  .grid-container-box > div {
+    background-color: var(--bs-color6);
+    padding: 0px -10px 0px -10px;
+    font-size: 30px;
+  }
+
+  .box {
+    grid-column-start: 1;
+    grid-column-end: 20;
+  }
+  .code-space {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 375px) {
+  .text-box {
+    display: block;
+    padding-right: 20px;
+    margin: 20px 10px 20px 10px;
+    font-size: .6rem;
+  }
+
+  .grid-container-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    border: 2px var(--bs-color7) solid;
+    padding: 2px;
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+
+  .grid-container-box > div {
+    background-color: var(--bs-color6);
+    padding: 0px 0px 0px 0px;
+    font-size: 30px;
+  }
+
+  .box {
+    grid-column-start: 1;
+    grid-column-end: 20;
+  }
+  .code-space {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 425px) {
+  .text-box {
+    display: block;
+    padding-right: 20px;
+    margin: 20px 20px 20px 20px;
+    font-size: .8rem;
+  }
+
+  .grid-container-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    border: 2px var(--bs-color7) solid;
+    padding: 2px;
+    margin-left: 0px;
+    margin-right: 5px;
+  }
+
+  .grid-container-box > div {
+    background-color: var(--bs-color6);
+    padding: 0px 0px 0px 0px;
+    font-size: 30px;
+  }
+
+  .box {
+    grid-column-start: 1;
+    grid-column-end: 20;
+  }
+  .code-space {
+    margin-left: 30px;
+  }
+}
+
+
+@media (min-width: 1440px), (min-width: 1024px), (min-width: 768px) {
+  .text-box {
+    display: block;
+    padding-right: 20px;
+    margin: -20px 20px -20px 20px;
+    font-size: 1.1rem;
+  }
+
+  .grid-container-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    border: 2px var(--bs-color7) solid;
+    padding: 2px;
+    margin-left: 50px;
+    margin-right: 55px;
+  }
+
+  .grid-container-box > div {
+    padding: 50px 0px 50px 10px;
+    font-size: 30px;
+    background-color: var(--bs-color6);
+  }
+
+  .box {
+    grid-column-start: 1;
+    grid-column-end: 20;
+  }
+  .code-space {
+    margin-left: 30px;
+  }
+}

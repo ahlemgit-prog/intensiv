@@ -1,0 +1,641 @@
+
+/* Table - Grid - Elements Page */
+@media (min-width: 320px) {
+
+
+  .grid-container-table {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 0;
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+
+  .grid-container-table > div.bloc2 {
+    background-color: var(--bs-color6);
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .grid-container-table > div.bloc1 {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+
+  .bloc1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+
+
+  .bloc2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .title-table1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .4rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 15px;
+  }
+
+  .title-table2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .4rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-right: 130px;
+
+  }
+
+  .title-table3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .4rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-right: -30px;
+    margin-left: -50px;
+  }
+
+  .name {
+    margin-right: 0px;
+  }
+
+  .description {
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+
+  .price {
+    margin-right: 20px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  .total {
+    margin-left: 130px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  span.name , span.description, span.price, span.total {
+    font-size: .3rem;
+  }
+
+  h3.title-3 {
+    font-size: .6rem;
+  }
+}
+
+@media (min-width: 375px) {
+
+  .grid-border {
+    border: 1px var(--bs-color6) solid;
+  }
+
+  .grid-container-table {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 0;
+    margin-left: -20px;
+  }
+
+  .grid-container-table > div.bloc2 {
+    background-color: var(--bs-color6);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .grid-container-table > div.bloc1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+
+  .bloc1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+
+
+  .bloc2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .title-table1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .5rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 0px;
+  }
+
+  .title-table2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .5rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-right: 120px;
+
+
+  }
+
+  .title-table3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .5rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-right: -30px;
+    margin-left: -30px;
+  }
+
+  .name {
+    margin-right: 0px;
+  }
+
+  .description {
+    margin-right: 0px;
+  }
+
+  .price {
+    margin-right: -30px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  .total {
+    margin-left: 170px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  span.name , span.description, span.price, span.total {
+    font-size: .4rem;
+  }
+
+  h3.title-3 {
+    font-size: .8rem;
+  }
+}
+
+@media (min-width: 375px) {
+
+  .grid-border {
+    border: 1px var(--bs-color6) solid;
+  }
+
+  .grid-container-table {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 0;
+    margin-right: 50px;
+  }
+
+  .grid-container-table > div.bloc2 {
+    background-color: var(--bs-color6);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .grid-container-table > div.bloc1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+
+  .bloc1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+
+
+  .bloc2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .title-table1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .4rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 18px;
+  }
+
+  .title-table2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .4rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-right: 130px;
+
+
+  }
+
+  .title-table3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .4rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-right: -30px;
+    margin-left: -30px;
+  }
+
+  .name {
+    margin-right: 0px;
+  }
+
+  .description {
+    margin-right: 0px;
+  }
+
+  .price {
+    margin-right: -30px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  .total {
+    margin-left: 170px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  span.name , span.description, span.price, span.total {
+    font-size: .4rem;
+  }
+
+  h3.title-3 {
+    font-size: .7rem;
+  }
+}
+
+@media (min-width: 425px) {
+
+  .grid-border {
+    border: 1px var(--bs-color6) solid;
+  }
+
+  .grid-container-table {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 0;
+    margin-right: 0px;
+  }
+
+  .grid-container-table > div.bloc2 {
+    background-color: var(--bs-color6);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .grid-container-table > div.bloc1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+
+  .bloc1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+
+
+  .bloc2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .title-table1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .5rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-right: 0px;
+  }
+
+  .title-table2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .5rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-right: 110px;
+
+
+  }
+
+  .title-table3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .5rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-right: 20px;
+    margin-left: 0px;
+  }
+
+  .name {
+    margin-right: 0px;
+  }
+
+  .description {
+    margin-right: 30px;
+  }
+
+  .price {
+    margin-right: -10px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  .total {
+    margin-left: 170px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  span.name , span.description, span.price, span.total {
+    font-size: .4rem;
+  }
+
+  h3.title-3 {
+    font-size: .8rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .grid-border {
+    border: 1px var(--bs-color6) solid;
+  }
+
+  .grid-container-table {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 0px 0 0 50px;
+  }
+
+  .grid-container-table > div.bloc2 {
+    background-color: var(--bs-color6);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .grid-container-table > div.bloc1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+
+  .bloc1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+
+
+  .bloc2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+
+
+  .title-table1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 20px;
+  }
+
+  .title-table2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 0px;
+  }
+
+  .title-table3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 210px;
+  }
+
+  .description {
+    margin-left: 20px;
+  }
+
+  .price {
+    margin-left: 130px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  .total {
+    margin-left: 420px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  span.name , span.description, span.price, span.total {
+    font-size: .7rem;
+  }
+
+  h3.title-3 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .grid-border {
+    border: 1px var(--bs-color6) solid;
+  }
+
+  .grid-container-table {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 0px 0 0 50px;
+  }
+
+  .grid-container-table > div.bloc2 {
+    background-color: var(--bs-color6);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .grid-container-table > div.bloc1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+
+  .bloc1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+
+
+  .bloc2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+
+
+  .title-table1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 20px;
+  }
+
+  .title-table2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 0px;
+  }
+
+  .title-table3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 380px;
+  }
+
+  .description {
+    margin-left: 40px;
+  }
+
+  .price {
+    margin-left: 235px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  .total {
+    margin-left: 650px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  span.name , span.description, span.price, span.total {
+    font-size: 1rem;
+
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .grid-border {
+    border: 1px var(--bs-color6) solid;
+  }
+
+
+  .grid-container-table {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 0px 0 0 50px;
+
+  }
+
+  .grid-container-table > div.bloc2 {
+    background-color: var(--bs-color6);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  .grid-container-table > div.bloc1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+
+  .bloc1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+
+
+  .bloc2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+
+
+  .title-table1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 20px;
+  }
+
+  .title-table2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 40px;
+  }
+
+  .title-table3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #333;
+    margin-left: 420px;
+  }
+
+  .description {
+    margin-left: 190px;
+  }
+
+  .price {
+    margin-left: 350px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  .total {
+    margin-left: 800px;
+    font-family: var(--bs-font-cursive);
+  }
+
+  span.name , span.description, span.price, span.total {
+    font-size: 1.1rem;
+
+  }
+}
